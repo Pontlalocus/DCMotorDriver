@@ -1,0 +1,7 @@
+Info: Front side (top side) place file: 'C:\Users\eduar\Documents\EE\DCMotorDriver\PBSS5480X Motor Driver\PBSS5480X Motor Driver-top.pos'.
+Info: Component count: 60.
+Info: Back side (bottom side) place file: 'C:\Users\eduar\Documents\EE\DCMotorDriver\PBSS5480X Motor Driver\PBSS5480X Motor Driver-bottom.pos'.
+Info: Component count: 0.
+Info: Full component count: 60
+
+Componment Placement File generation OK.

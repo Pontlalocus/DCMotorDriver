@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/eduar/Documents/EE/DCMotorDriver/PBSS5480X Motor Driver/PBSS5480X Motor Driver.sch</source>
+    <date>9/29/2016 10:39:00 PM</date>
+    <tool>Eeschema 4.0.0-rc2-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>jeu. 02 avril 2015</date>
+        <source>PBSS5480X Motor Driver.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P3">
+      <value>CONN_1</value>
+      <footprint>Connect:1pin_Nano</footprint>
+      <libsource lib="PBSS5480X Motor Driver-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>551D9380</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_1</value>
+      <footprint>Connect:1pin_Nano</footprint>
+      <libsource lib="PBSS5480X Motor Driver-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>551D9414</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_1</value>
+      <footprint>Connect:1pin_Nano</footprint>
+      <libsource lib="PBSS5480X Motor Driver-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>551D9432</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_1</value>
+      <footprint>Connect:1pin_Nano</footprint>
+      <libsource lib="PBSS5480X Motor Driver-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>551D9466</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>Digital</value>
+      <footprint>Connect:Socket_Strip_Arduino_1x15</footprint>
+      <libsource lib="PBSS5480X Motor Driver-cache" part="CONN_15"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>551D9496</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Analog</value>
+      <footprint>Connect:Socket_Strip_Arduino_1x15</footprint>
+      <libsource lib="PBSS5480X Motor Driver-cache" part="CONN_15"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>551D94EF</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>DTC114E</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Case">SOT23</field>
+        <field name="Mfr">NXP</field>
+        <field name="MfrPN">PDTC114ET,215</field>
+      </fields>
+      <libsource lib="transistors" part="DTC114E"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DDE7EC</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>PBSS5480X</value>
+      <footprint>TO_SOT_Packages_SMD:SOT89-3_Housing</footprint>
+      <fields>
+        <field name="Case">SOT89</field>
+        <field name="Mfr">NXP</field>
+        <field name="MfrPN">PBSS5480X,135</field>
+      </fields>
+      <libsource lib="transistors" part="BCX53"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DDEB39</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Rating">1/16W</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Yageo</field>
+        <field name="MfrPN">RC0603FR-0710KL</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DDED69</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>BAS316</value>
+      <footprint>Diodes_SMD:SOD-323</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/BAS16_SER.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">NXP</field>
+        <field name="MfrPN">BAS316,115</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/nxp-semiconductors/BAS316,115/568-5003-2-ND/1232076</field>
+        <field name="Current">100mA</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DDF551</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>S5G</value>
+      <footprint>Diodes_SMD:SMC_Standard</footprint>
+      <fields>
+        <field name="Current">5A</field>
+        <field name="VR">400V</field>
+        <field name="Mfr">Vishay</field>
+        <field name="MfrPN">S5G-E3/57T</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DDFAA5</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Rating">1/16W</field>
+        <field name="Mfr">Yageo</field>
+        <field name="MfrPN">RC0603JR-070RL</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DDFB39</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Rating">50V</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM188R71H104KA93D </field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DDFC84</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Rating">50V</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM188R71H104KA93D </field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DDFCEC</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>680</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Rating">1/8W</field>
+        <field name="Case">0805</field>
+        <field name="Mfr">Yageo</field>
+        <field name="MfrPN">RC0805FR-07680RL</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DE5DAB</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Rating">50V</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM188R71H104KA93D </field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DE7B39</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.01uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Rating">50V</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM188R71H103KA01D</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R71H103KA01D/490-1512-2-ND/587151</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DE7C62</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Rating">50V</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM188R71H104KA93D </field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DE8232</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Rating">1/16W</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Yageo</field>
+        <field name="MfrPN">RC0603FR-0747KL</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DE9190</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Rating">50V</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM188R71H104KA93D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DE98D5</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>SMBJ10A</value>
+      <footprint>Diodes_SMD:SMB_Standard</footprint>
+      <fields>
+        <field name="Mfr">Vishay</field>
+        <field name="MfrPN">SMBJ10A-E3/52</field>
+        <field name="Voltage">10V</field>
+        <field name="Case">SMB</field>
+      </fields>
+      <libsource lib="device" part="TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEA1D8</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Rating">25V</field>
+        <field name="Case">0805</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM21BR71A106KA73L</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BR71A106KA73L/490-10516-2-ND/5027600</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB5CA</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>0.01</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Rating">1/16W</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Yageo</field>
+        <field name="MfrPN">PE0603DRF070R01L</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEBAEE</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Rating">50V</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM188R71H104KA93D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEC841</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>DTC114E</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Case">SOT23</field>
+        <field name="Mfr">NXP</field>
+        <field name="MfrPN">PDTC114ET,215</field>
+      </fields>
+      <libsource lib="transistors" part="DTC114E"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEAF4C</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>PBSS5480X</value>
+      <footprint>TO_SOT_Packages_SMD:SOT89-3_Housing</footprint>
+      <fields>
+        <field name="Case">SOT89</field>
+        <field name="Mfr">NXP</field>
+        <field name="MfrPN">PBSS5480X,135</field>
+      </fields>
+      <libsource lib="transistors" part="BCX53"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEAF55</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Rating">1/16W</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Yageo</field>
+        <field name="MfrPN">RC0603FR-0710KL</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEAF5F</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>680</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Rating">1/8W</field>
+        <field name="Case">0805</field>
+        <field name="Mfr">Yageo</field>
+        <field name="MfrPN">RC0805FR-07680RL</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEAF87</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Rating">50V</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM188R71H104KA93D </field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEAFBA</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.01uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Rating">50V</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM188R71H103KA01D</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R71H103KA01D/490-1512-2-ND/587151</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEAFC5</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Rating">50V</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM188R71H104KA93D </field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEAFD3</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Rating">1/16W</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Yageo</field>
+        <field name="MfrPN">RC0603FR-0747KL</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEAFE6</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Rating">50V</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM188R71H104KA93D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEAFF2</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Rating">25V</field>
+        <field name="Case">0805</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM21BR71A106KA73L</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BR71A106KA73L/490-10516-2-ND/5027600</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB003</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>0.01</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Rating">1/16W</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Yageo</field>
+        <field name="MfrPN">PE0603DRF070R01L</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB017</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>DTC114E</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Case">SOT23</field>
+        <field name="Mfr">NXP</field>
+        <field name="MfrPN">PDTC114ET,215</field>
+      </fields>
+      <libsource lib="transistors" part="DTC114E"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB2CD</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>PBSS5480X</value>
+      <footprint>TO_SOT_Packages_SMD:SOT89-3_Housing</footprint>
+      <fields>
+        <field name="Case">SOT89</field>
+        <field name="Mfr">NXP</field>
+        <field name="MfrPN">PBSS5480X,135</field>
+      </fields>
+      <libsource lib="transistors" part="BCX53"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB2D6</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Rating">1/16W</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Yageo</field>
+        <field name="MfrPN">RC0603FR-0710KL</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB2E0</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>680</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Rating">1/8W</field>
+        <field name="Case">0805</field>
+        <field name="Mfr">Yageo</field>
+        <field name="MfrPN">RC0805FR-07680RL</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB308</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Rating">50V</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM188R71H104KA93D </field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB33B</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.01uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Rating">50V</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM188R71H103KA01D</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R71H103KA01D/490-1512-2-ND/587151</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB346</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Rating">50V</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM188R71H104KA93D </field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB354</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Rating">1/16W</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Yageo</field>
+        <field name="MfrPN">RC0603FR-0747KL</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB367</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Rating">50V</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM188R71H104KA93D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB373</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Rating">25V</field>
+        <field name="Case">0805</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM21BR71A106KA73L</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BR71A106KA73L/490-10516-2-ND/5027600</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB384</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>0.01</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Rating">1/16W</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Yageo</field>
+        <field name="MfrPN">PE0603DRF070R01L</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB398</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>DTC114E</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Case">SOT23</field>
+        <field name="Mfr">NXP</field>
+        <field name="MfrPN">PDTC114ET,215</field>
+      </fields>
+      <libsource lib="transistors" part="DTC114E"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB648</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>PBSS5480X</value>
+      <footprint>TO_SOT_Packages_SMD:SOT89-3_Housing</footprint>
+      <fields>
+        <field name="Case">SOT89</field>
+        <field name="Mfr">NXP</field>
+        <field name="MfrPN">PBSS5480X,135</field>
+      </fields>
+      <libsource lib="transistors" part="BCX53"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB651</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Rating">1/16W</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Yageo</field>
+        <field name="MfrPN">RC0603FR-0710KL</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB65B</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>680</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Rating">1/8W</field>
+        <field name="Case">0805</field>
+        <field name="Mfr">Yageo</field>
+        <field name="MfrPN">RC0805FR-07680RL</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB683</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Rating">50V</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM188R71H104KA93D </field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB6B6</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0.01uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Rating">50V</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM188R71H103KA01D</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R71H103KA01D/490-1512-2-ND/587151</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB6C1</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Rating">50V</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM188R71H104KA93D </field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB6CF</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Rating">1/16W</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Yageo</field>
+        <field name="MfrPN">RC0603FR-0747KL</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB6E2</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Rating">50V</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM188R71H104KA93D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB6EE</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Rating">25V</field>
+        <field name="Case">0805</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM21BR71A106KA73L</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BR71A106KA73L/490-10516-2-ND/5027600</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB6FF</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>0.01</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Rating">1/16W</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Yageo</field>
+        <field name="MfrPN">PE0603DRF070R01L</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DEB713</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>Shield_Connector</value>
+      <footprint>Connect:Socket_Strip_Arduino_1x15</footprint>
+      <libsource lib="PBSS5480X Motor Driver-cache" part="CONN_15"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DF16AF</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>CONN_1</value>
+      <footprint>Connect:1pin-5.1mmx7mm</footprint>
+      <libsource lib="PBSS5480X Motor Driver-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DF9188</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>CONN_1</value>
+      <footprint>Connect:1pin-5.1mmx7mm</footprint>
+      <libsource lib="PBSS5480X Motor Driver-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DFB23E</tstamp>
+    </comp>
+    <comp ref="P10">
+      <value>CONN_1</value>
+      <footprint>Connect:1pin-5.1mm</footprint>
+      <libsource lib="PBSS5480X Motor Driver-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DFB31B</tstamp>
+    </comp>
+    <comp ref="P11">
+      <value>CONN_1</value>
+      <footprint>Connect:1pin-5.1mmx7mm</footprint>
+      <libsource lib="PBSS5480X Motor Driver-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DFB3FB</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Rating">50V</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM188R71H104KA93D </field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E04927</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>BAS316</value>
+      <footprint>Diodes_SMD:SOD-323</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/BAS16_SER.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">NXP</field>
+        <field name="MfrPN">BAS316,115</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/nxp-semiconductors/BAS316,115/568-5003-2-ND/1232076</field>
+        <field name="Current">100mA</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E0920E</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>BAS316</value>
+      <footprint>Diodes_SMD:SOD-323</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/BAS16_SER.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">NXP</field>
+        <field name="MfrPN">BAS316,115</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/nxp-semiconductors/BAS316,115/568-5003-2-ND/1232076</field>
+        <field name="Current">100mA</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E095F1</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>BAS316</value>
+      <footprint>Diodes_SMD:SOD-323</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/BAS16_SER.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">NXP</field>
+        <field name="MfrPN">BAS316,115</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/nxp-semiconductors/BAS316,115/568-5003-2-ND/1232076</field>
+        <field name="Current">100mA</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E09C82</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>BAS316</value>
+      <footprint>Diodes_SMD:SOD-323</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/BAS16_SER.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">NXP</field>
+        <field name="MfrPN">BAS316,115</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/nxp-semiconductors/BAS316,115/568-5003-2-ND/1232076</field>
+        <field name="Current">100mA</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E0A725</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>BAS316</value>
+      <footprint>Diodes_SMD:SOD-323</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/BAS16_SER.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">NXP</field>
+        <field name="MfrPN">BAS316,115</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/nxp-semiconductors/BAS316,115/568-5003-2-ND/1232076</field>
+        <field name="Current">100mA</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E0AE5E</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>BAS316</value>
+      <footprint>Diodes_SMD:SOD-323</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/BAS16_SER.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">NXP</field>
+        <field name="MfrPN">BAS316,115</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/nxp-semiconductors/BAS316,115/568-5003-2-ND/1232076</field>
+        <field name="Current">100mA</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E0B012</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>BAS316</value>
+      <footprint>Diodes_SMD:SOD-323</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/BAS16_SER.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">NXP</field>
+        <field name="MfrPN">BAS316,115</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/nxp-semiconductors/BAS316,115/568-5003-2-ND/1232076</field>
+        <field name="Current">100mA</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E0B9EF</tstamp>
+    </comp>
+    <comp ref="P12">
+      <value>ESC1_Connector</value>
+      <footprint>Connect:PINHEAD1-3</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E0D237</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Rating">50V</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM188R71H104KA93D </field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E0F11B</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Rating">1/16W</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Yageo</field>
+        <field name="MfrPN">RC0603FR-0747KL</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57EDEC2D</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>0.01uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Rating">50V</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Murata</field>
+        <field name="MfrPN">GRM188R71H103KA01D</field>
+        <field name="Link">http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R71H103KA01D/490-1512-2-ND/587151</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57EE016D</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Rating">1/16W</field>
+        <field name="Case">0603</field>
+        <field name="Mfr">Yageo</field>
+        <field name="MfrPN">RC0603FR-0747KL</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57EE02A0</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="transistors" part="BCX51">
+      <aliases>
+        <alias>BCX52</alias>
+        <alias>BCX53</alias>
+      </aliases>
+      <description>45V Vce, 1A Ic, PNP Medium Power Transistor, SOT-89</description>
+      <docs>http://www.infineon.com/dgdl/bcx51_bcx52_bcx53.pdf</docs>
+      <footprints>
+        <fp>SOT-89*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BCX51</field>
+        <field name="Footprint">SOT-89</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PBSS5480X Motor Driver-cache" part="CONN_1">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PBSS5480X Motor Driver-cache" part="CONN_15">
+      <description>Symbole general de connexion</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_15</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="p15" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="DTC114E">
+      <description>Digital Transistor, 10k/10k, SOT-23</description>
+      <footprints>
+        <fp>SOT-23*</fp>
+        <fp>SC-59*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DTC114E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="TVS">
+      <description>Transient voltage suppressor diode (bi-directional)</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TVS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>C:\Program Files\KiCad\share\kicad\library\transistors.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="PBSS5480X Motor Driver-cache">
+      <uri>C:\Users\eduar\Documents\EE\DCMotorDriver\PBSS5480X Motor Driver\PBSS5480X Motor Driver-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Q7-Pad3)">
+      <node ref="R14" pin="2"/>
+      <node ref="Q7" pin="3"/>
+    </net>
+    <net code="2" name="GNDREF">
+      <node ref="C25" pin="1"/>
+      <node ref="P7" pin="2"/>
+      <node ref="P7" pin="5"/>
+      <node ref="P7" pin="14"/>
+      <node ref="R16" pin="2"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="P12" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="P2" pin="2"/>
+      <node ref="P1" pin="4"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+    <net code="3" name="/Motor4-V-">
+      <node ref="C22" pin="1"/>
+      <node ref="P7" pin="13"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="4" name="Net-(C19-Pad1)">
+      <node ref="C20" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="Q8" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="5" name="Net-(Q4-Pad3)">
+      <node ref="Q4" pin="3"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="6" name="/Motor3-V-">
+      <node ref="C16" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="P7" pin="11"/>
+    </net>
+    <net code="7" name="VEE">
+      <node ref="D1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="D7" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="R15" pin="1"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D10" pin="1"/>
+    </net>
+    <net code="8" name="Net-(C11-Pad1)">
+      <node ref="Q6" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="9" name="/Motor3-V+">
+      <node ref="D8" pin="2"/>
+      <node ref="D6" pin="1"/>
+      <node ref="P7" pin="10"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="Q6" pin="2"/>
+    </net>
+    <net code="10" name="Net-(P11-Pad1)">
+      <node ref="P11" pin="1"/>
+    </net>
+    <net code="11" name="Net-(P10-Pad1)">
+      <node ref="P10" pin="1"/>
+    </net>
+    <net code="12" name="/Motor4-V+">
+      <node ref="Q8" pin="2"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D10" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="P7" pin="12"/>
+    </net>
+    <net code="13" name="Net-(P8-Pad1)">
+      <node ref="P8" pin="1"/>
+    </net>
+    <net code="14" name="Net-(P9-Pad1)">
+      <node ref="P9" pin="1"/>
+    </net>
+    <net code="15" name="/A4-Battery_V">
+      <node ref="R18" pin="1"/>
+      <node ref="C26" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="P2" pin="8"/>
+    </net>
+    <net code="16" name="/6-ESC1">
+      <node ref="P1" pin="9"/>
+      <node ref="P12" pin="3"/>
+    </net>
+    <net code="17" name="/A3-Motor4-iout">
+      <node ref="P2" pin="9"/>
+      <node ref="R17" pin="1"/>
+      <node ref="C23" pin="2"/>
+    </net>
+    <net code="18" name="/3-PWM2">
+      <node ref="Q3" pin="1"/>
+      <node ref="P1" pin="6"/>
+    </net>
+    <net code="19" name="/4-PWM3">
+      <node ref="P1" pin="7"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="20" name="/A2-Motor3-iout">
+      <node ref="R13" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="P2" pin="10"/>
+    </net>
+    <net code="21" name="/5-PWM4">
+      <node ref="Q7" pin="1"/>
+      <node ref="P1" pin="8"/>
+    </net>
+    <net code="22" name="/1-TX">
+      <node ref="P1" pin="1"/>
+      <node ref="P7" pin="3"/>
+    </net>
+    <net code="23" name="/0-RX">
+      <node ref="P1" pin="2"/>
+      <node ref="P7" pin="4"/>
+    </net>
+    <net code="24" name="/Motor1-V-">
+      <node ref="P7" pin="7"/>
+      <node ref="C5" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="25" name="/Vin">
+      <node ref="P2" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="P7" pin="1"/>
+    </net>
+    <net code="26" name="/Motor1-V+">
+      <node ref="P7" pin="6"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="27" name="/Motor2-V+">
+      <node ref="D5" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="P7" pin="8"/>
+      <node ref="Q5" pin="2"/>
+    </net>
+    <net code="28" name="/Motor2-V-">
+      <node ref="R10" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="D5" pin="2"/>
+      <node ref="P7" pin="9"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="29" name="Net-(Q1-Pad3)">
+      <node ref="R3" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="30" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="31" name="Net-(P3-Pad1)">
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="32" name="Net-(P4-Pad1)">
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="33" name="Net-(P5-Pad1)">
+      <node ref="P5" pin="1"/>
+    </net>
+    <net code="34" name="Net-(P6-Pad1)">
+      <node ref="P6" pin="1"/>
+    </net>
+    <net code="35" name="/Reset">
+      <node ref="P1" pin="3"/>
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="36" name="/2-PWM1">
+      <node ref="P1" pin="5"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="37" name="+5V">
+      <node ref="C24" pin="2"/>
+      <node ref="P12" pin="2"/>
+      <node ref="P2" pin="13"/>
+      <node ref="P2" pin="4"/>
+      <node ref="P7" pin="15"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="38" name="/12(MOSI)">
+      <node ref="P1" pin="15"/>
+    </net>
+    <net code="39" name="/7">
+      <node ref="P1" pin="10"/>
+    </net>
+    <net code="40" name="/8">
+      <node ref="P1" pin="11"/>
+    </net>
+    <net code="41" name="/9(**)">
+      <node ref="P1" pin="12"/>
+    </net>
+    <net code="42" name="/10(**/SS)">
+      <node ref="P1" pin="13"/>
+    </net>
+    <net code="43" name="/11(**/MISO)">
+      <node ref="P1" pin="14"/>
+    </net>
+    <net code="44" name="/13(SCK)">
+      <node ref="P2" pin="15"/>
+    </net>
+    <net code="45" name="/A0-Motor1_iout">
+      <node ref="P2" pin="12"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="46" name="/A5">
+      <node ref="P2" pin="7"/>
+    </net>
+    <net code="47" name="/A6">
+      <node ref="P2" pin="6"/>
+    </net>
+    <net code="48" name="/A7">
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="49" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="50" name="/A1-Motor2-iout">
+      <node ref="C17" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="P2" pin="11"/>
+    </net>
+    <net code="51" name="Net-(C3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="52" name="Net-(C10-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="Q5" pin="1"/>
+    </net>
+    <net code="53" name="+3V3">
+      <node ref="P2" pin="14"/>
+    </net>
+  </nets>
+</export>
