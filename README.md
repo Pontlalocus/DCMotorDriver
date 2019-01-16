@@ -3,7 +3,7 @@ DC Motor Driver Boards
 
 # Glosary
 
-** Ref Des ** - Reference Designator
+**Ref Des** - Reference Designator
 
 # Overview
 
