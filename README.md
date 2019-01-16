@@ -5,6 +5,7 @@ DC Motor Driver Boards
 
 **Mon** - Monitor
 **Ref Des** - Reference Designator
+**PCB** - Printed Circuit Board
 
 
 # Overview
@@ -92,4 +93,40 @@ This board will only operate as low side driver with 4 oputputs that can handle 
 
 
 _Note: Motor current is same formula for all motors: Motor1, Motor2, Motor3 and Motor4
+
+# Schematic Diagram
+
+Refer to Schematic Diagram for wiring connections
+[Schematic Diagram Files](/PBSS5480X Motor Driver/PBSS5480X_Motor_Driver.sch)
+
+# PCB Specification
+
+<_Pending_>
+
+# External Connections Diagram
+
+Required External Components
+
+1.  Power Pack: 9V
+Example:
+<_Pending_>.
+
+2.  DC Voltage Regulator 5V
+Example:
+<_Pending_>.
+
+2.  DC Motor: 
+Example:
+<_Pending_>.
+
+# Future Generation Improvements
+# TODO
+1.  Add MQTT RF Transmitter
+2.  Add Sensors for 3 axis accelerometer, Gyroscpe and Compass
+3.  Add Output for Servo
+
+
+
+
+
 
