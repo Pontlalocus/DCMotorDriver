@@ -15,7 +15,7 @@ This board will only operate as low side driver with 4 oputputs that can handle 
 
 # Block Diagram
 
-<__Pending__>
+<_Pending_>
 
 # Main Connector Pinout
 
@@ -71,3 +71,20 @@ This board will only operate as low side driver with 4 oputputs that can handle 
 | P2            | 13            | AREF             | Not Used            |
 | P2            | 14            | +3.3V            | Power 3.3V          |
 | P2            | 15            | 13 - SCK         | Serial Clock        |
+
+
+# General Specifications
+
+**Operation Voltage**: Battery Vin must be equal to 9V +/- 1V
+**Operating Temperature**: 0°C to 40°C
+**Battery Input Current**:
+1.  No Load = <_Pending_>
+2.  Individual Motor Max Load =<_xx A_>
+3.  All Motors Max Load = <_xx A_>
+**Battery Voltage Monitor Range**:  VBAT * 0.5
+**Battery Monitor Low Pass Filter**: <_Pending_>
+**Motor Current Monitor Formula**: Current * 0.1 in Amps
+**Motor Current Low Pass Filter**: <_Pending_>
+
+_Note: Motor current is same formula for all motors: Motor1, Motor2, Motor3 and Motor4
+
