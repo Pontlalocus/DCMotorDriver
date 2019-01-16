@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>F:/Kicad/DCMotorDriver-master/PBSS5480X_Motor_Driver/PBSS5480X Motor Driver.sch</source>
-    <date>3/19/2018 11:48:58 AM</date>
+    <source>F:/Kicad/DCMotorDriver-master/PBSS5480X_Motor_Driver2/PBSS5480X_Motor_Driver.sch</source>
+    <date>7/5/2018 1:35:01 PM</date>
     <tool>Eeschema 4.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -10,7 +10,7 @@
         <company/>
         <rev/>
         <date>jeu. 02 avril 2015</date>
-        <source>PBSS5480X Motor Driver.sch</source>
+        <source>PBSS5480X_Motor_Driver.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -22,42 +22,42 @@
     <comp ref="P3">
       <value>CONN_1</value>
       <footprint>Connect:1pin_Nano</footprint>
-      <libsource lib="PBSS5480X Motor Driver-cache" part="CONN_1"/>
+      <libsource lib="PBSS5480X_Motor_Driver-cache" part="CONN_1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551D9380</tstamp>
     </comp>
     <comp ref="P4">
       <value>CONN_1</value>
       <footprint>Connect:1pin_Nano</footprint>
-      <libsource lib="PBSS5480X Motor Driver-cache" part="CONN_1"/>
+      <libsource lib="PBSS5480X_Motor_Driver-cache" part="CONN_1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551D9414</tstamp>
     </comp>
     <comp ref="P5">
       <value>CONN_1</value>
       <footprint>Connect:1pin_Nano</footprint>
-      <libsource lib="PBSS5480X Motor Driver-cache" part="CONN_1"/>
+      <libsource lib="PBSS5480X_Motor_Driver-cache" part="CONN_1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551D9432</tstamp>
     </comp>
     <comp ref="P6">
       <value>CONN_1</value>
       <footprint>Connect:1pin_Nano</footprint>
-      <libsource lib="PBSS5480X Motor Driver-cache" part="CONN_1"/>
+      <libsource lib="PBSS5480X_Motor_Driver-cache" part="CONN_1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551D9466</tstamp>
     </comp>
     <comp ref="P1">
       <value>Digital</value>
       <footprint>Connect:Socket_Strip_Arduino_1x15</footprint>
-      <libsource lib="PBSS5480X Motor Driver-cache" part="CONN_15"/>
+      <libsource lib="PBSS5480X_Motor_Driver-cache" part="CONN_15"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551D9496</tstamp>
     </comp>
     <comp ref="P2">
       <value>Analog</value>
       <footprint>Connect:Socket_Strip_Arduino_1x15</footprint>
-      <libsource lib="PBSS5480X Motor Driver-cache" part="CONN_15"/>
+      <libsource lib="PBSS5480X_Motor_Driver-cache" part="CONN_15"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>551D94EF</tstamp>
     </comp>
@@ -251,7 +251,7 @@
         <field name="Voltage">10V</field>
         <field name="Case">SMB</field>
       </fields>
-      <libsource lib="PBSS5480X Motor Driver-cache" part="TVS"/>
+      <libsource lib="PBSS5480X_Motor_Driver-cache" part="TVS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57DEA1D8</tstamp>
     </comp>
@@ -727,35 +727,35 @@
     <comp ref="P7">
       <value>Shield_Connector</value>
       <footprint>Connect:Socket_Strip_Arduino_1x15</footprint>
-      <libsource lib="PBSS5480X Motor Driver-cache" part="CONN_15"/>
+      <libsource lib="PBSS5480X_Motor_Driver-cache" part="CONN_15"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57DF16AF</tstamp>
     </comp>
     <comp ref="P8">
       <value>CONN_1</value>
       <footprint>Connect:1pin-5.1mmx7mm</footprint>
-      <libsource lib="PBSS5480X Motor Driver-cache" part="CONN_1"/>
+      <libsource lib="PBSS5480X_Motor_Driver-cache" part="CONN_1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57DF9188</tstamp>
     </comp>
     <comp ref="P9">
       <value>CONN_1</value>
       <footprint>Connect:1pin-5.1mmx7mm</footprint>
-      <libsource lib="PBSS5480X Motor Driver-cache" part="CONN_1"/>
+      <libsource lib="PBSS5480X_Motor_Driver-cache" part="CONN_1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57DFB23E</tstamp>
     </comp>
     <comp ref="P10">
       <value>CONN_1</value>
       <footprint>Connect:1pin-5.1mm</footprint>
-      <libsource lib="PBSS5480X Motor Driver-cache" part="CONN_1"/>
+      <libsource lib="PBSS5480X_Motor_Driver-cache" part="CONN_1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57DFB31B</tstamp>
     </comp>
     <comp ref="P11">
       <value>CONN_1</value>
       <footprint>Connect:1pin-5.1mmx7mm</footprint>
-      <libsource lib="PBSS5480X Motor Driver-cache" part="CONN_1"/>
+      <libsource lib="PBSS5480X_Motor_Driver-cache" part="CONN_1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57DFB3FB</tstamp>
     </comp>
@@ -873,7 +873,7 @@
     <comp ref="P12">
       <value>ESC1_Connector</value>
       <footprint>Connect:PINHEAD1-3</footprint>
-      <libsource lib="PBSS5480X Motor Driver-cache" part="CONN_01X03"/>
+      <libsource lib="PBSS5480X_Motor_Driver-cache" part="CONN_01X03"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57E0D237</tstamp>
     </comp>
@@ -967,7 +967,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="PBSS5480X Motor Driver-cache" part="CONN_01X03">
+    <libpart lib="PBSS5480X_Motor_Driver-cache" part="CONN_01X03">
       <footprints>
         <fp>Pin_Header_Straight_1X03</fp>
         <fp>Pin_Header_Angled_1X03</fp>
@@ -984,7 +984,7 @@
         <pin num="3" name="P3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="PBSS5480X Motor Driver-cache" part="CONN_1">
+    <libpart lib="PBSS5480X_Motor_Driver-cache" part="CONN_1">
       <fields>
         <field name="Reference">P</field>
         <field name="Value">CONN_1</field>
@@ -993,8 +993,7 @@
         <pin num="1" name="1" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="PBSS5480X Motor Driver-cache" part="CONN_15">
-      <description>Symbole general de connexion</description>
+    <libpart lib="PBSS5480X_Motor_Driver-cache" part="CONN_15">
       <fields>
         <field name="Reference">P</field>
         <field name="Value">CONN_15</field>
@@ -1066,7 +1065,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="PBSS5480X Motor Driver-cache" part="TVS">
+    <libpart lib="PBSS5480X_Motor_Driver-cache" part="TVS">
       <fields>
         <field name="Reference">D</field>
         <field name="Value">TVS</field>
@@ -1078,14 +1077,14 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="PBSS5480X_Motor_Driver-cache">
+      <uri>F:\Kicad\DCMotorDriver-master\PBSS5480X_Motor_Driver2\PBSS5480X_Motor_Driver-cache.lib</uri>
+    </library>
     <library logical="device">
       <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
     </library>
     <library logical="transistors">
       <uri>C:\Program Files\KiCad\share\kicad\library\transistors.lib</uri>
-    </library>
-    <library logical="PBSS5480X Motor Driver-cache">
-      <uri>F:\Kicad\DCMotorDriver-master\PBSS5480X_Motor_Driver\PBSS5480X Motor Driver-cache.lib</uri>
     </library>
   </libraries>
   <nets>
