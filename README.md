@@ -3,7 +3,9 @@ DC Motor Driver Boards
 
 # Glosary
 
+**Mon** - Monitor
 **Ref Des** - Reference Designator
+
 
 # Overview
 
@@ -36,3 +38,36 @@ This board will only operate as low side driver with 4 oputputs that can handle 
 | P7            | 15            | +5V           |  Power +5V         |
 
 # Arduino Nano Connector
+
+|  Ref Des      | Pin #         | Signal Name      | Description         |
+| ------------- |---------------| -----------------|---------------------|
+| P1            | 1             | 1-TX             |  Serial TX          |
+| P1            | 2             | 0-RX             |  Serial RX          |
+| P1            | 3             | Reset            |  Reset              |
+| P1            | 4             | GND              |  Ground             |
+| P1            | 5             | 2-PWM1           |  Motor1 - PWM1      |
+| P1            | 6             | 3-PWM2           |  Motor2 - PWM2      |
+| P1            | 7             | 4-PWM3           |  Motor3 - PWM3      |
+| P1            | 8             | 5-PWM4           |  Motor4 - PWM4      |
+| P1            | 9             | 6-ESC1           |  Reserved           |
+| P1            | 10            | Not Used         |  Not Used           |
+| P1            | 11            | Not Used         |  Not Used           |
+| P1            | 12            | Not Used         |  Not Used           |
+| P1            | 13            | Not Used         |  Not Used           |
+| P1            | 14            | Not Used         |  Not Used           |
+| P1            | 15            | Not Used         |  Not Used           |
+| P2            | 1             | Vin              |  Power Battery      |
+| P2            | 2             | GND              |  Ground             |
+| P2            | 3             | Reset            |  Reset              |
+| P2            | 4             | +5V              |  Power +5V          |
+| P2            | 5             | Not Used         |  Not Used           |
+| P2            | 6             | Not Used         |  Not Used           |
+| P2            | 7             | Not Used         |  Not Used           |
+| P2            | 8             | A4 - Battery_V   |  Battery Voltage IN |
+| P2            | 9             | A3 - Motor4_iout | Motor 4 current Mon |
+| P2            | 10            | A2 - Motor3_iout | Motor 3 current Mon |
+| P2            | 11            | A1 - Motor2_iout | Motor 2 current Mon |
+| P2            | 12            | A0 -  Motor2_iout| Motor 1 current Mon |
+| P2            | 13            | AREF             | Not Used            |
+| P2            | 14            | +3.3V            | Power 3.3V          |
+| P2            | 15            | 13 - SCK         | Serial Clock        |
