@@ -97,7 +97,8 @@ _Note: Motor current is same formula for all motors: Motor1, Motor2, Motor3 and 
 # Schematic Diagram
 
 Refer to Schematic Diagram for wiring connections
-[Schematic Diagram Files](/PBSS5480X Motor Driver/PBSS5480X_Motor_Driver.sch)
+
+[Schematic Diagram Files](../PBSS5480X Motor Driver/PBSS5480X_Motor_Driver.sch)
 
 # PCB Specification
 
