@@ -78,13 +78,18 @@ This board will only operate as low side driver with 4 oputputs that can handle 
 **Operation Voltage**: Battery Vin must be equal to 9V +/- 1V
 **Operating Temperature**: 0°C to 40°C
 **Battery Input Current**:
-1.  No Load = <_Pending_>
-2.  Individual Motor Max Load =<_xx A_>
-3.  All Motors Max Load = <_xx A_>
-**Battery Voltage Monitor Range**:  VBAT * 0.5
-**Battery Monitor Low Pass Filter**: <_Pending_>
-**Motor Current Monitor Formula**: Current * 0.1 in Amps
-**Motor Current Low Pass Filter**: <_Pending_>
+1.  No Load = <_Pending_>.
+2.  Individual Motor Max Load =<_xx A_>.
+3.  All Motors Max Load = <_xx A_>.
+
+**Battery Voltage Monitor Range**:  VBAT * 0.5.
+
+**Battery Monitor Low Pass Filter**: <_Pending_>.
+
+**Motor Current Monitor Formula**: Current * 0.1 in Amps.
+
+**Motor Current Low Pass Filter**: <_Pending_>.
+
 
 _Note: Motor current is same formula for all motors: Motor1, Motor2, Motor3 and Motor4
 
