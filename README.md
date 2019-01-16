@@ -13,7 +13,7 @@ This board will only operate as low side driver with 4 oputputs that can handle 
 
 # Block Diagram
 
-Pending
+<__Pending__>
 
 # Main Connector Pinout
 
