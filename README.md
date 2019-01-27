@@ -148,13 +148,17 @@ The following list of components are selected for the Design.  All are discrete 
 | 15            | Arduino Nano Board               | 1   |  BOARD 1                                                       |
 
 
-## 6.2  PCB Specification
+## 6.3  PCB Specification
 
-### PCB Design Top View 
+PCB Board is FR-4.  Tickness 1.6mm.  2 layers.  Top Side Assembly.  Silkscreen in Top Side only.
+
+Supplier selected for the first Job is JLPCB
+
+### 6.3.1 PCB Design Top View 
 
 ![PCB Top View](https://github.com/Pontlalocus/DCMotorDriver/blob/master/PBSS5480X%20Motor%20Driver/docs/PCB%20Board%20Top%20View%20-%20Gerber.png)
 
-### PCB Design Bottom View
+### 6.3.2 PCB Design Bottom View
 
 ![PCB Bottom View](https://github.com/Pontlalocus/DCMotorDriver/blob/master/PBSS5480X%20Motor%20Driver/docs/PCB%20Board%20Bottom%20View%20-%20Gerber.png)
 
@@ -162,48 +166,49 @@ The following list of components are selected for the Design.  All are discrete 
 
 
 
-##  6.0  Design Verification
+##  7.0  Design Verification
 
 For making sure the board functioanlity is working correctly the following Components are used.  Follow the connection diagram and test the functioanlity of the board with this Software
 
-## 6.1  External Components Requirements
+## 7.1  External Components Requirements
 
 Required External Components
 
-### 6.1.1  Power Pack
+### 7.1.1  Power Pack
 
-1.  Power Pack: 9V
+Power Pack: 9V
 Example:
 <_Pending_>.
 
-### 6.1.2  DC Voltage Regulator
+### 7.1.2  DC Voltage Regulator
 
-2.  DC Voltage Regulator 5V
+DC Voltage Regulator 5V
 Example:
 <_Pending_>.
 
 
-### 6.1.3  DC Motor
+### 7.1.3  DC Motor
 
 2.  DC Motor: 
 Example:
 <_Pending_>.
 
-## 6.3  Design Verification Connections
+## 7.2  Design Verification Connections
 
 Todo:  Add connections to system with actual pictures
 
-## 6.4  Design Verification Software
+## 7.3  Design Verification Software
 
 Todo:  Software components,  How does the software works, how to flash software,  how to run software, 
 
-## 6.5  Measure of the output signals and confirmation of General Specifications
+## 7.4  Measure of the output signals and confirmation of General Specifications
 
 Todo:  use a measurement device to confirm General Specifications:  Supply Voltage, Actual current vs adruino measured x 4, PWM signal x 4, Battery Monitor. 
 
 
-## Future Generation Improvements
-## TODO
+## 8.0  Future Generation Improvements
+
+### 8.1 TODO
 1.  Add MQTT RF Transmitter
 2.  Add Sensors for 3 axis accelerometer, Gyroscpe and Compass
 3.  Add Output for Servo
