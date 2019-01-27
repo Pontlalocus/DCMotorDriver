@@ -1,24 +1,28 @@
-# DCMotorDriver
-DC Motor Driver Boards
+# Project:  BJT HS DC Motor Driver
+
+## DCMotorDriver
+DC Motor Driver Simple Board using Bipolar Junction Transistor (BJT).
 
 # Glosary
 
+
+**BJT** - Bipolar Junction Transistor
 **Mon** - Monitor
-**Ref Des** - Reference Designator
 **PCB** - Printed Circuit Board
+**Ref Des** - Reference Designator
 
 
-# Overview
+## Overview
 
 DC Motor Driver board is a shield for Arduino nano to drive motors or similar loads with BJT Transistors.
 
 This board will only operate as low side driver with 4 oputputs that can handle PWM pulses.
 
-# Block Diagram
+## Block Diagram
 
 <_Pending_>
 
-# Main Connector Pinout
+## Main Connector Pinout
 
 |  Ref Des      | Pin #         | Signal Name   | Description        |
 | ------------- |---------------| --------------|--------------------|
@@ -38,7 +42,7 @@ This board will only operate as low side driver with 4 oputputs that can handle 
 | P7            | 14            | GND           |  Ground            |
 | P7            | 15            | +5V           |  Power +5V         |
 
-# Arduino Nano Connector
+## Arduino Nano Connector
 
 |  Ref Des      | Pin #         | Signal Name      | Description         |
 | ------------- |---------------| -----------------|---------------------|
@@ -74,7 +78,7 @@ This board will only operate as low side driver with 4 oputputs that can handle 
 | P2            | 15            | 13 - SCK         | Serial Clock        |
 
 
-# General Specifications
+## General Specifications
 
 **Operation Voltage**: Battery Vin must be equal to 9V +/- 1V
 **Operating Temperature**: 0°C to 40°C
@@ -94,17 +98,17 @@ This board will only operate as low side driver with 4 oputputs that can handle 
 
 _Note: Motor current is same formula for all motors: Motor1, Motor2, Motor3 and Motor4
 
-# Schematic Diagram
+## Schematic Diagram
 
 Refer to Schematic Diagram for wiring connections
 
 [Schematic Diagram Files](PBSS5480X Motor Driver/BJT_Motor_Driver_Shield_Schematic.pdf)
 
-# PCB Specification
+## PCB Specification
 
 <_Pending_>
 
-# External Connections Diagram
+## External Connections Diagram
 
 Required External Components
 
@@ -120,8 +124,8 @@ Example:
 Example:
 <_Pending_>.
 
-# Future Generation Improvements
-# TODO
+## Future Generation Improvements
+## TODO
 1.  Add MQTT RF Transmitter
 2.  Add Sensors for 3 axis accelerometer, Gyroscpe and Compass
 3.  Add Output for Servo
