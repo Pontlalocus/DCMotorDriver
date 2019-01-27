@@ -30,7 +30,8 @@ The board is capable of reading the current of each motor independently by using
 
 ## 3.0  Block Diagram
 
-<_Pending_>
+
+![BJT DC Motor Driver Block Diagram](https://github.com/Pontlalocus/DCMotorDriver/blob/master/PBSS5480X%20Motor%20Driver/docs/BlockDiagram_Rev0.png)
 
 ## 4.0  External Connections   
 
