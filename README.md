@@ -10,6 +10,8 @@ DC Motor Driver Simple Board using Bipolar Junction Transistor (BJT).
 
 **DC** - Direct Current
 
+**Qty**  - Quantity
+
 **Mon** - Monitor
 
 **PCB** - Printed Circuit Board
@@ -122,6 +124,29 @@ _Note: Motor current is same formula for all motors: Motor1, Motor2, Motor3 and 
 Refer to Schematic Diagram for wiring connections
 
 ![Schematic Diagram](https://github.com/Pontlalocus/DCMotorDriver/blob/master/PBSS5480X%20Motor%20Driver/docs/BJT_Motor_Driver_Shield_Schematic.png)
+
+## 6.2 Bill of Material
+
+The following list of components are selected for the Design.  All are discrete components:
+
+|  Item #       | Description                      | Qty | Reference Designator                                           |
+| ------------- |----------------------------------| ----|----------------------------------------------------------------|
+| 1             | PCB bare boards FR-4 Tg=140 2L   | 1   |  PCB 1                                                         |
+| 2             | DIODE GEN PURP 250V 200MA SOD323 | 8   |  D2 D3 D7 D5 D8 D6 D9 D10                                      |
+| 3             | CAP CER 10000PF 50V X7R 0603     | 5   |  C3 C9 C11 C19 C26                                             |
+| 4             | CAP CER 0.1UF 50V X7R 0603       | 17  |  C6 C8 C17 C18 C23 C1 C2 C5 C4 C15 C10 C16 C12 C22 C20 C24 C25 |
+| 5             | CAP CER 10UF 16V X7R 0805        | 4   |  C7 C13 C14 C21                                                |
+| 6             | TRANS PNP 80V 4A SOT89           | 4   |  Q2 Q5 Q6 Q8                                                   |
+| 7             | TRANS PREBIAS NPN 246MW SOT23-3  | 4   |  Q1 Q3 Q4 Q7                                                   |
+| 8             | RES 0.01 OHM 1% 1/4W 0603        | 4   |  R5 R10 R11 R16                                                |
+| 9             | RES SMD 10K OHM 5% 1/10W 0603    | 4   |  R2 R8 R9 R15                                                  |
+| 10            | RES SMD 47K OHM 5% 1/10W 0603    | 6   |  R4 R12 R13 R17 R18 R19                                        |
+| 11            | RES SMD 0 OHM JUMPER 1/10W 0603  | 1   |  R1                                                            |
+| 12            | RES SMD 680 OHM 1% 1/8W 0805     | 4   |  R3 R6 R7 R14                                                  |
+| 13            | DIODE GEN PURP 400V 5A DO214AB   | 1   |  D1                                                            |
+| 14            | TVS DIODE 10V 17V DO214AA        | 1   |  D4                                                            |
+| 15            | Arduino Nano Board               | 1   |  BOARD 1                                                       |
+
 
 ## 6.2  PCB Specification
 
