@@ -125,6 +125,9 @@ Refer to Schematic Diagram for wiring connections
 ## 6.2  PCB Specification
 
 <_Pending_>
+![PCB Top View](DCMotorDriver/PBSS5480X Motor Driver/docs/PCB Board Bottom View - Gerber.png)
+Format: ![PCB Top View](url)
+ 
 
 
 
