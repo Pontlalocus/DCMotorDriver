@@ -120,12 +120,12 @@ _Note: Motor current is same formula for all motors: Motor1, Motor2, Motor3 and 
 
 Refer to Schematic Diagram for wiring connections
 
-[Schematic Diagram Files](PBSS5480X Motor Driver/BJT_Motor_Driver_Shield_Schematic.pdf)
+[Schematic Diagram Files](/PBSS5480X Motor Driver/BJT_Motor_Driver_Shield_Schematic.pdf)
 
 ## 6.2  PCB Specification
 
 <_Pending_>
-![PCB Top View](DCMotorDriver/PBSS5480X Motor Driver/docs/PCB Board Bottom View - Gerber.png)
+![PCB Top View](/DCMotorDriver/PBSS5480X Motor Driver/docs/PCB Board Bottom View - Gerber.png)
 Format: ![PCB Top View](url)
  
 
