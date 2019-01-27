@@ -3,7 +3,7 @@
 ## DCMotorDriver
 DC Motor Driver Simple Board using Bipolar Junction Transistor (BJT).
 
-# Glosary
+# 1.0  Glosary
 
 
 **BJT** - Bipolar Junction Transistor
@@ -18,17 +18,23 @@ DC Motor Driver Simple Board using Bipolar Junction Transistor (BJT).
 
 
 
-## Overview
+## 2.0  Overview
 
-DC Motor Driver board is a shield for Arduino nano to drive motors or similar loads with BJT Transistors.
+DC Motor Driver board is a shield for Arduino nano to drive motors on the simplest way possible.   It uses only high side driver suply to the motor with Bipolar Junction Transistors (BJT).
 
-This board will only operate as low side driver with 4 oputputs that can handle PWM pulses.
+The Board can handle 4 Motors each of the motors are connected to the V(+) and V(-) directly to the output.  No other connections to drive th motors are required.
 
-## Block Diagram
+This board will only operate as a high side driver with 4 oputputs that can handle PWM pulses.  The PWM pulses are internally generated on the Arduino nano.   It is important that the Arduino nano is assembled to the board and programmed with the correct software for the motors to be able to work.
+
+The board is capable of reading the current of each motor independently by using a shunt resistor to ground.   The current measurement is injected to the Analaog port of the Arduino Nano.   We use the Ports A0 to A3 to each of the motor current.  More information on how to read the values is explained below.
+
+## 3.0  Block Diagram
 
 <_Pending_>
 
-## Main Connector Pinout
+## 4.0  External Connections   
+
+## 4.1  Main Connector Pinout
 
 |  Ref Des      | Pin #         | Signal Name   | Description        |
 | ------------- |---------------| --------------|--------------------|
@@ -48,7 +54,7 @@ This board will only operate as low side driver with 4 oputputs that can handle 
 | P7            | 14            | GND           |  Ground            |
 | P7            | 15            | +5V           |  Power +5V         |
 
-## Arduino Nano Connector
+## 4.2  Arduino Nano Connector
 
 |  Ref Des      | Pin #         | Signal Name      | Description         |
 | ------------- |---------------| -----------------|---------------------|
@@ -84,7 +90,11 @@ This board will only operate as low side driver with 4 oputputs that can handle 
 | P2            | 15            | 13 - SCK         | Serial Clock        |
 
 
-## General Specifications
+## 5.0  General Specifications
+
+General Specifications include typical operation specifications
+
+## 5.1  Typical Specifications
 
 **Operation Voltage**: Battery Vin must be equal to 9V +/- 1V
 **Operating Temperature**: 0°C to 40°C
@@ -104,31 +114,59 @@ This board will only operate as low side driver with 4 oputputs that can handle 
 
 _Note: Motor current is same formula for all motors: Motor1, Motor2, Motor3 and Motor4
 
-## Schematic Diagram
+##  Project Design
+
+## 6.1  Schematic Diagram
 
 Refer to Schematic Diagram for wiring connections
 
 [Schematic Diagram Files](PBSS5480X Motor Driver/BJT_Motor_Driver_Shield_Schematic.pdf)
 
-## PCB Specification
+## 6.2  PCB Specification
 
 <_Pending_>
 
-## External Connections Diagram
+
+
+##  6.0  Design Verification
+
+For making sure the board functioanlity is working correctly the following Components are used.  Follow the connection diagram and test the functioanlity of the board with this Software
+
+## 6.1  External Components Requirements
 
 Required External Components
+
+### 6.1.1  Power Pack
 
 1.  Power Pack: 9V
 Example:
 <_Pending_>.
 
+### 6.1.2  DC Voltage Regulator
+
 2.  DC Voltage Regulator 5V
 Example:
 <_Pending_>.
 
+
+### 6.1.3  DC Motor
+
 2.  DC Motor: 
 Example:
 <_Pending_>.
+
+## 6.3  Design Verification Connections
+
+Todo:  Add connections to system with actual pictures
+
+## 6.4  Design Verification Software
+
+Todo:  Software components,  How does the software works, how to flash software,  how to run software, 
+
+## 6.5  Measure of the output signals and confirmation of General Specifications
+
+Todo:  use a measurement device to confirm General Specifications:  Supply Voltage, Actual current vs adruino measured x 4, PWM signal x 4, Battery Monitor. 
+
 
 ## Future Generation Improvements
 ## TODO
