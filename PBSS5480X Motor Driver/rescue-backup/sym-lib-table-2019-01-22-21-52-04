@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name PBSS5480X-Motor-Driver-rescue)(type Legacy)(uri "${KIPRJMOD}/PBSS5480X Motor Driver-rescue.lib")(options "")(descr ""))
+)

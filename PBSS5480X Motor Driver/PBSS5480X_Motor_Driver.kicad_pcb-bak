@@ -2510,7 +2510,7 @@
   (gr_text P/N:2016092500R0 (at 158.76016 80.15732 270) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "PBSS5480X Motor Driver" (at 137.30732 60.12688) (layer F.SilkS)
+  (gr_text "BJT HS DC Motor Driver" (at 137.30732 60.12688) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (dimension 3.251343 (width 0.3) (layer Dwgs.User)
