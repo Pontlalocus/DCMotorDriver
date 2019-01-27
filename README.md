@@ -8,6 +8,8 @@ DC Motor Driver Simple Board using Bipolar Junction Transistor (BJT).
 
 **BJT** - Bipolar Junction Transistor
 
+**DC** - Direct Current
+
 **Mon** - Monitor
 
 **PCB** - Printed Circuit Board
