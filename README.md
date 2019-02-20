@@ -125,9 +125,11 @@ Refer to Schematic Diagram for wiring connections of the Project
 
 ![Schematic Diagram](https://github.com/Pontlalocus/DCMotorDriver/blob/master/PBSS5480X%20Motor%20Driver/docs/BJT_Motor_Driver_Shield_Schematic.png)
 
+
 This project requires the Arduino Nano board to be used.  For information on the schematic diagram of the Arduino Nano please refer to the following page
-![Arduino Nano Schematic Diagram]
-(https://media.digikey.com/Photos/RDL/Arduino%20Nano%20-%20Schematic.png)
+
+![Arduino Nano Schematic Diagram](https://media.digikey.com/Photos/RDL/Arduino%20Nano%20-%20Schematic.png)
+
 Note: External Link
 
 ## 6.2 Bill of Material
